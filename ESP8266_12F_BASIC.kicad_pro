@@ -121,7 +121,8 @@
       "track_widths": [
         0.0,
         0.3,
-        0.5
+        0.5,
+        1.0
       ],
       "via_dimensions": [
         {
@@ -382,7 +383,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "3D_MODEL/ESP8266_12F_BASIC.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
