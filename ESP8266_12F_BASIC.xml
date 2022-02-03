@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\mrtn\Documents\KiCad\6.0\projects\ESP8266_12F_BASIC\ESP8266_12F_BASIC\ESP8266_12F_BASIC.kicad_sch</source>
+    <date>02.02.2022 21:53:11</date>
+    <tool>Eeschema (6.0.1)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ESP8266_12F_BASIC.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP8266_12F_BASIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf0870b4-91b0-4f0e-8976-45b812b1b4e4</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP8266_12F_BASIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>744e1659-7682-4334-bfd7-25f2db78efab</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP8266_12F_BASIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e25ad861-3149-4913-aa3e-36c03c39741e</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP8266_12F_BASIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f4255fe-740d-413f-b3c3-fb325e14782d</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP8266_12F_BASIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>241f0f98-a45b-432f-83f3-497a06a72493</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP8266_12F_BASIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>087e89d0-88ce-4d5d-a5a1-9479ca2e05c2</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB_B_Micro</value>
+      <footprint>Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal</footprint>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP8266_12F_BASIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3d8c538-85e8-4894-a7da-482b9ff6e2de</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>MHZ19</value>
+      <footprint>mh_z19:MH-Z19</footprint>
+      <libsource lib="mh_z19" part="MHZ19" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP8266_12F_BASIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6a01587-1033-4a8d-bf9e-595177ee475f</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ESP-12F</value>
+      <footprint>RF_Module:ESP-12E</footprint>
+      <datasheet>http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf</datasheet>
+      <libsource lib="RF_Module" part="ESP-12F" description="802.11 b/g/n Wi-Fi Module"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP8266_12F_BASIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8784da16-aab1-4084-9421-1d07ddb5ea1f</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AP1117-33</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.diodes.com/datasheets/AP1117.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="AP1117-33" description="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP8266_12F_BASIC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3aade57-6f28-4d1a-89bf-ea17c64a5d8a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="WS2812B">
+      <description>RGB LED with integrated controller</description>
+      <docs>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</docs>
+      <footprints>
+        <fp>LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WS2812B</field>
+        <field name="Footprint">LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</field>
+        <field name="Datasheet">https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_Module" part="ESP-12F">
+      <description>802.11 b/g/n Wi-Fi Module</description>
+      <docs>http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf</docs>
+      <footprints>
+        <fp>ESP?12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP-12F</field>
+        <field name="Footprint">RF_Module:ESP-12E</field>
+        <field name="Datasheet">http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RST}" type="input"/>
+        <pin num="2" name="ADC" type="input"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="GPIO16" type="bidirectional"/>
+        <pin num="5" name="GPIO14" type="bidirectional"/>
+        <pin num="6" name="GPIO12" type="bidirectional"/>
+        <pin num="7" name="GPIO13" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="CS0" type="input"/>
+        <pin num="10" name="MISO" type="bidirectional"/>
+        <pin num="11" name="GPIO9" type="bidirectional"/>
+        <pin num="12" name="GPIO10" type="bidirectional"/>
+        <pin num="13" name="MOSI" type="bidirectional"/>
+        <pin num="14" name="SCLK" type="bidirectional"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="GPIO15" type="bidirectional"/>
+        <pin num="17" name="GPIO2" type="bidirectional"/>
+        <pin num="18" name="GPIO0" type="bidirectional"/>
+        <pin num="19" name="GPIO4" type="bidirectional"/>
+        <pin num="20" name="GPIO5" type="bidirectional"/>
+        <pin num="21" name="GPIO3/RXD" type="bidirectional"/>
+        <pin num="22" name="GPIO1/TXD" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP1117-33">
+      <description>1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223</description>
+      <docs>http://www.diodes.com/datasheets/AP1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP1117-33</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.diodes.com/datasheets/AP1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="mh_z19" part="MHZ19">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MHZ19</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="V0" type="output"/>
+        <pin num="4" name="PWM" type="output"/>
+        <pin num="5" name="HD" type="passive"/>
+        <pin num="6" name="Rx" type="passive"/>
+        <pin num="7" name="Tx" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="LED">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/LED.kicad_sym</uri>
+    </library>
+    <library logical="RF_Module">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/RF_Module.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="mh_z19">
+      <uri>C:/Users/mrtn/Documents/KiCad/6.0/partLib/mh-z19-master/mh_z19.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J2" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="2" name="MHZ_RX">
+      <node ref="J2" pin="6" pinfunction="Rx" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="MHZ_TX">
+      <node ref="J2" pin="7" pinfunction="Tx" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="VCC_3V3">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="5" name="VCC_IN">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="U2" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="6" name="unconnected-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="VDD" pintype="power_in+no_connect"/>
+    </net>
+    <net code="7" name="unconnected-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="DOUT" pintype="output+no_connect"/>
+    </net>
+    <net code="8" name="unconnected-(D1-Pad3)">
+      <node ref="D1" pin="3" pinfunction="VSS" pintype="power_in+no_connect"/>
+    </net>
+    <net code="9" name="unconnected-(D1-Pad4)">
+      <node ref="D1" pin="4" pinfunction="DIN" pintype="input+no_connect"/>
+    </net>
+    <net code="10" name="unconnected-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="VDD" pintype="power_in+no_connect"/>
+    </net>
+    <net code="11" name="unconnected-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="DOUT" pintype="output+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(D2-Pad3)">
+      <node ref="D2" pin="3" pinfunction="VSS" pintype="power_in+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(D2-Pad4)">
+      <node ref="D2" pin="4" pinfunction="DIN" pintype="input+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="VDD" pintype="power_in+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="DOUT" pintype="output+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(D3-Pad3)">
+      <node ref="D3" pin="3" pinfunction="VSS" pintype="power_in+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(D3-Pad4)">
+      <node ref="D3" pin="4" pinfunction="DIN" pintype="input+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(D4-Pad1)">
+      <node ref="D4" pin="1" pinfunction="VDD" pintype="power_in+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="DOUT" pintype="output+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(D4-Pad3)">
+      <node ref="D4" pin="3" pinfunction="VSS" pintype="power_in+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(D4-Pad4)">
+      <node ref="D4" pin="4" pinfunction="DIN" pintype="input+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="D-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(J1-Pad3)">
+      <node ref="J1" pin="3" pinfunction="D+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(J1-Pad6)">
+      <node ref="J1" pin="6" pinfunction="Shield" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(J2-Pad3)">
+      <node ref="J2" pin="3" pinfunction="V0" pintype="output+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(J2-Pad4)">
+      <node ref="J2" pin="4" pinfunction="PWM" pintype="output+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(J2-Pad5)">
+      <node ref="J2" pin="5" pinfunction="HD" pintype="passive+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U1-Pad1)">
+      <node ref="U1" pin="1" pinfunction="~{RST}" pintype="input+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="ADC" pintype="input+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="EN" pintype="input+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="GPIO16" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="GPIO14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="GPIO12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="GPIO13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U1-Pad9)">
+      <node ref="U1" pin="9" pinfunction="CS0" pintype="input+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U1-Pad10)">
+      <node ref="U1" pin="10" pinfunction="MISO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U1-Pad11)">
+      <node ref="U1" pin="11" pinfunction="GPIO9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U1-Pad12)">
+      <node ref="U1" pin="12" pinfunction="GPIO10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U1-Pad13)">
+      <node ref="U1" pin="13" pinfunction="MOSI" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1-Pad14)">
+      <node ref="U1" pin="14" pinfunction="SCLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1-Pad16)">
+      <node ref="U1" pin="16" pinfunction="GPIO15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1-Pad17)">
+      <node ref="U1" pin="17" pinfunction="GPIO2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U1-Pad18)">
+      <node ref="U1" pin="18" pinfunction="GPIO0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U1-Pad21)">
+      <node ref="U1" pin="21" pinfunction="GPIO3/RXD" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U1-Pad22)">
+      <node ref="U1" pin="22" pinfunction="GPIO1/TXD" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
