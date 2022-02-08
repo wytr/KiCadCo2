@@ -55,10 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|134824046|88723493|4c8dad4a-392b-4d4d-bcaf-c3d035a31bd0|5593b06d-5fe1-4049-9d22-e9ecf8ed4202",
-        "silk_over_copper|136115526|117214285|d89e2580-b022-4d48-a37e-c7e9e38b0bcb|79d95f3e-9f01-4c14-b344-f4c5fe9c0777"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
