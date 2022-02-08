@@ -1,6 +1,6 @@
 # KiCadCo2
 
-# ESP 12-F | MH-Z19C | CO2 INDICATOR
+# ESP 12-F Praline für einen MH-Z19C
 
 Schematic [here](https://github.com/wytr/KiCadCo2/blob/master/schematic_pdf/ESP8266_12F_BASIC.pdf)
 
